@@ -1,0 +1,22 @@
+/* When editing your site to be responsive:
+
+  - bring up site in browser 
+  - load developer tools 
+  - in top right corner you will see measurements of how large site is (w x h)
+  - you'll want to note the first number, which is the width 
+  - as you scale site down, i.e. move site inward, notice what elements are changing 
+  - create media queries based on what needs to happen as site gets smaller (i.e. social media icons are too close together at 1120px width)
+
+*/
+@media only screen and (max-width: 1120px) 
+  
+  /* wrapper is getting too close and content will get chopped off, to fix this, we'll change wrapper to have a fluid width  */ 
+  
+  .wrapper {
+    width: 90%; 
+  }
+
+  /* social media icons are too close together, we'll need to place them somewhere else when screen reaches max-width 1120px */
+
+
+}
