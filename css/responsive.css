@@ -8,7 +8,7 @@
   - create media queries based on what needs to happen as site gets smaller (i.e. social media icons are too close together at 1120px width)
 
 */
-@media only screen and (max-width: 1120px) 
+@media only screen and (max-width: 1120px) {
   
   /* wrapper is getting too close and content will get chopped off, to fix this, we'll change wrapper to have a fluid width  */ 
   
@@ -17,6 +17,14 @@
   }
 
   /* social media icons are too close together, we'll need to place them somewhere else when screen reaches max-width 1120px */
-
-
+  #social { 
+    position: absolute; 
+    top: 82px; 
+    right: 4%; 
+    width: auto; 
+  }
+  
+  #social a {
+    display: inline-block; /* this will allow links to display side-by-side */
+  }
 }
